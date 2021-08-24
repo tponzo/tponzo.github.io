@@ -1,12 +1,69 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../../assets/img/bg.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  font-size: 25px;
+  width: 3vw;
+  height: 3vw;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-github {
+  background: #55acee;
+  color: white;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 12vw;
+  height: 12vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular--portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 body {
   background-color: #f9f9fa;
 }
 
 .padding {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f3f2f2;
 }
 
 .user-card-full {
@@ -14,7 +71,7 @@ body {
 }
 
 .card {
-  border-radius: 5px;
+  border-radius: 10px;
   -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
   box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
   border: none;
@@ -34,14 +91,7 @@ body {
 }
 
 .bg-c-lite-green {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#f29263),
-    to(#ee5a6f)
-  );
-  background: linear-gradient(to right, #277ef0, #88baf3);
+  background: linear-gradient(to right, #f04f27, #e2ae1d);
 }
 
 .user-profile {
@@ -124,6 +174,14 @@ h6 {
 
 .m-b-10 {
   margin-bottom: 10px;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.m-r-10 {
+  margin-right: 10px;
 }
 
 .m-t-40 {

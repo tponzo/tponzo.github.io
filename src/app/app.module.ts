@@ -7,7 +7,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { ContactComponent } from './contact/contact.component';
     AboutMeComponent,
     ResumeComponent,
     ExperienceComponent,
-    ContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

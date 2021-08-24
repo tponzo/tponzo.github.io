@@ -30,11 +30,4 @@ export class NavbarComponent implements OnInit {
       block: 'start',
     });
   }
-
-  toContact() {
-    document.getElementById('contact')?.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
-  }
 }
