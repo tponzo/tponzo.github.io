@@ -1,0 +1,63 @@
+.bg {
+  background-image: url("../../assets/img/front.jpg");
+  height: 100%;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.padding {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f2f2;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
+body {
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+p {
+  margin-right: 6.9em;
+  margin-bottom: 4em;
+  border-right: solid 4px rgba(146, 146, 146, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Titillium Web", monospace;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+/* Animation */
+p {
+  animation: animated-text 4s steps(22, end) 1s 1 normal both,
+    animated-cursor 600ms steps(22, end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 610px;
+  }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

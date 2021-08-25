@@ -17,15 +17,15 @@ export class NavbarComponent implements OnInit {
     });
   }
 
-  toResume() {
-    document.getElementById('resume')?.scrollIntoView({
+  toExperience() {
+    document.getElementById('experience')?.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
     });
   }
 
-  toExperience() {
-    document.getElementById('experience')?.scrollIntoView({
+  toHome() {
+    document.getElementById('home')?.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
     });
