@@ -1,6 +1,16 @@
-.container {
+.bg {
+  background-image: url("../../assets/img/bg.png");
+  height: 100%;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padding {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f3f2f2;
 }

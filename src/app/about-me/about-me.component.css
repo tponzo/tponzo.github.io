@@ -3,12 +3,25 @@ html {
   height: 100%;
 }
 
+.link {
+  color: rgb(0, 162, 255);
+  cursor: pointer;
+}
+
 .bg {
-  background-image: url("../../assets/img/bg.jpg");
+  background-image: url("../../assets/img/bg.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.padding {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f2f2;
 }
 
 .fa {
@@ -53,14 +66,6 @@ html {
 
 body {
   background-color: #f9f9fa;
-}
-
-.padding {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f3f2f2;
 }
 
 .user-card-full {
@@ -115,6 +120,10 @@ h6 {
   line-height: 25px;
 }
 
+.desc {
+  font-size: 20px;
+}
+
 @media only screen and (min-width: 1400px) {
   p {
     font-size: 14px;
@@ -135,6 +144,10 @@ h6 {
 
 .p-b-5 {
   padding-bottom: 5px !important;
+}
+
+.p-t-5 {
+  padding-top: 5px !important;
 }
 
 .card .card-block p {
