@@ -10,6 +10,13 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  toHome() {
+    document.getElementById('home')?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  }
+
   toAbout() {
     document.getElementById('about')?.scrollIntoView({
       behavior: 'smooth',
@@ -17,15 +24,8 @@ export class NavbarComponent implements OnInit {
     });
   }
 
-  toExperience() {
-    document.getElementById('experience')?.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
-  }
-
-  toHome() {
-    document.getElementById('home')?.scrollIntoView({
+  toProjects() {
+    document.getElementById('projects')?.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
     });
