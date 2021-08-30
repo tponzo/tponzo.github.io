@@ -1,16 +1,17 @@
 # My Personal Website
 
-A digital porfolio of me and my projects.
+A digital portfolio of me and my projects.
 
 ## Demo
 
 Deployed on github pages! Find it [here](https://tponzo.github.io/)
 
-## Built with 
-* Node.js - The JavaScript runtime
+## Built with
 
-* Angular 2 - The JavaScript framework for web applications
+- Node.js - The JavaScript runtime
 
-* Typescript - Typed superset of JavaScript that compiles into plain JavaScript
+- Angular 2 - The JavaScript framework for web applications
 
-* Bootstrap - HTML, CSS, and JS framework
+- Typescript - Typed superset of JavaScript that compiles into plain JavaScript
+
+- Bootstrap - HTML, CSS, and JS framework

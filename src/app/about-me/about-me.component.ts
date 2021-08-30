@@ -11,6 +11,6 @@ export class AboutMeComponent implements OnInit {
   ngOnInit(): void {}
 
   openResume() {
-    window.open('../../assets/resume.pdf');
+    window.open('../../assets/Ty_Ponzo_Resume.pdf');
   }
 }
